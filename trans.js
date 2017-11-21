@@ -1,7 +1,7 @@
 //在线翻译查询(百度翻译)
     $('#selectBtn').click(function() {
-        var appid = '20171115000095684';//填你自己的百度翻译APP ID
-        var key = 'bgXR6YWIfdQUufEpVLuz';//填你自己的百度翻译密钥
+        var appid = '';//填你自己的百度翻译APP ID
+        var key = '';//填你自己的百度翻译密钥
         var salt = (new Date).getTime();//取当前时间作为随机数
         var query= $('#transInput').val();//取输入框的val
         var q = encodeURIComponent(query);//编码UTF-8
